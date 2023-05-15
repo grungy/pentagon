@@ -1,4 +1,4 @@
 {
-    "nodes":[{"id":"Josh","group":1}, {"id":"Jenny", "group":1}, {"id":"Riley", "group":1}, {"id":"Erik", "group":1}, {"id":"Pierce", "group":1}],
+    "nodes":[{"id":"Josh","name":"Josh", "group":1}, {"id":"Jenny", "name":"Jenny", "group":2}, {"id":"Riley", "name":"Riley", "group":3}, {"id":"Erik", "name":"Erik", "group":4}, {"id":"Pierce", "name":"Pierce", "group":5}],
     "links":[{"source":"Josh","target":"Jenny","value":1},{"source":"Jenny","target":"Erik","value":1},{"source":"Erik","target":"Riley","value":1},{"source":"Pierce","target":"Josh","value":1}]
 }
