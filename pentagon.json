@@ -1,4 +1,16 @@
 {
-    "nodes":[{"id":"Josh","name":"Josh", "group":1}, {"id":"Jenny", "name":"Jenny", "group":2}, {"id":"Riley", "name":"Riley", "group":3}, {"id":"Erik", "name":"Erik", "group":4}, {"id":"Pierce", "name":"Pierce", "group":5}],
-    "links":[{"source":"Josh","target":"Jenny","value":1},{"source":"Jenny","target":"Erik","value":1},{"source":"Erik","target":"Riley","value":1},{"source":"Pierce","target":"Josh","value":1}]
-}
+    "nodes":[
+      {"radius":10,"name":"Josh","group":1},
+      {"radius":10,"name":"Jenny","group":2},
+      {"radius":10,"name":"Riley","group":3},
+      {"radius":10,"name":"Erik","group":4},
+      {"radius":10,"name":"Pierce","group":5}
+    ],
+    "links":[
+      {"source":0,"target":1,"value":10},
+      {"source":1,"target":3,"value":10},
+      {"source":2,"target":3,"value":10},
+      {"source":2,"target":4,"value":10},
+      {"source":0,"target":4,"value":10}
+    ]
+  }
